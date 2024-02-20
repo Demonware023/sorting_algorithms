@@ -1,0 +1,9 @@
+To calculate the time complexity:
+
+Best case: O(n + k)
+Average case: O(n + k)
+Worst case: O(n + k)
+Where:
+
+n is the number of elements in the input array.
+k is the range of the non-negative key values.
