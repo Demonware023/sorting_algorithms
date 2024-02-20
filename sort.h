@@ -43,6 +43,9 @@ void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void merge(int *array, size_t left, size_t mid, size_t right);
 void merge_sort_recursive(int *array, size_t left, size_t right);
-
+void swap_elements(int *array, size_t i, size_t j, size_t size);
+void heap_sort(int *array, size_t size);
+void heapify(int *array, size_t size);
+void sift_down(int *array, size_t start, size_t end, size_t size);
 
 #endif
