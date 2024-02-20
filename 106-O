@@ -1,0 +1,5 @@
+In the best case, the time complexity is O(nlog2n)
+.
+In the average case, the time complexity is O(nlog2n)
+.
+In the worst case, the time complexity is O(nlog2n)

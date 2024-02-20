@@ -47,5 +47,16 @@ void swap_elements(int *array, size_t i, size_t j, size_t size);
 void heap_sort(int *array, size_t size);
 void heapify(int *array, size_t size);
 void sift_down(int *array, size_t start, size_t end, size_t size);
+void swap_bitonic(int *array, size_t i, size_t j, size_t size);
+void bitonic_compare(int *array, size_t i, size_t j, size_t size);
+void bitonic_merge(int *array, size_t low, size_t cnt, int dir, size_t size);
+void bitonic_sort_recursive(int *array, size_t low, size_t cnt, int dir, size_t size);
+void bitonic_sort(int *array, size_t size);
+void reverse(int *array, size_t cnt);
+void swap_hoare(int *array, size_t i, size_t j, size_t size);
+int hoare_partition(int *array, size_t size, int low, int high);
+void quick_sort_hoare_recursion(int *array, size_t size, int low, int high);
+void quick_sort_hoare(int *array, size_t size);
+
 
 #endif
