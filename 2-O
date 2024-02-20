@@ -1,0 +1,16 @@
+Best case: O(n^2)
+Average case: O(n^2)
+Worst case: O(n^2)
+
+
+Best case: O(n^2)
+
+The best-case scenario occurs when the array is already sorted. However, even in this case, the algorithm still needs to iterate through the entire array to confirm that it's sorted, resulting in a time complexity of O(n^2).
+
+Average case: O(n^2)
+
+In the average case, the algorithm also requires nested iterations over the array, resulting in a time complexity of O(n^2).
+
+Worst case: O(n^2)
+
+The worst-case scenario occurs when the array is sorted in reverse order or nearly sorted. In this case, the algorithm still requires nested iterations over the array, leading to a time complexity of O(n^2).
